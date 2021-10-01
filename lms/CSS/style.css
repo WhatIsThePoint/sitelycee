@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+/* --------------------------------GENERAL-------------------------------- */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+}
+body{
+  /*https://wallpaperaccess.com/full/1850680.jpg*/
+  background-color: #FFF8DC;
+}
+/* --------------------------------HEADER-------------------------------- */
+
+
+#header{
+    min-height: 100vh;
+    min-width: 100%;
+    background-image: url("https://wallpaperaccess.com/full/5032169.jpg");
+    backdrop-filter: blur(3px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /*
+    background:url('https://wallpaperaccess.com/full/1850680.jpg');
+    background-color: #232323;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#header nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+#header nav .links {
+    margin: 0 4%;
+}
+#header nav .links .link {
+    margin: 0 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border: 2px solid transparent;
+    transition: 0.2s;
+}
+#header nav .links .link:hover {
+    border-bottom: 2px solid white;
+}
+
+#header nav .links .login-btn {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border: 2px solid white;
+    transition: 0.2s;
+    padding: 5px 15px;
+}
+#header nav .links .login-btn:hover {
+   background-color: white;
+   color: rgba(0, 38, 255, 0.5);
+}
+
+
+#header .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 4%;
+    
+}
+#header .title h1{
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+#header .title h2{
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+.content-etudes{
+  color: white;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    text-shadow: black 0.2px 0.5px;
+    margin: 0% 10% 0% 10%;
+    padding-bottom: 10%;
+}
+
+.forum-content{
+  width: 95%;
+  height: 70vh;
+  color: black;
+  border: 1px white solid;
+  background-color:rgb(225, 225, 225,0.7);
+  overflow: auto;
+}
+.tab-content p{
+  padding: 1%;
+  border-bottom: 1px white solid;
+}
+.forum-content .nav-link{
+  color: white;
+  text-decoration: none;
+ 
+}
+
+.forum-content .nav-link:hover{
+  color: white;
+  text-decoration: none;
+ border-radius: 0%;
+}
+.header-title{
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    text-shadow: black 0.2px 0.5px;
+    margin: 0% 10% 0% 10%;
+    text-decoration: underline;
+  }
+
+
+.welcome-div{
+    padding-top: 2%;
+
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   /* background: linear-gradient(to top left,#232323,#333);*/
+  
+}
+
+.welcome-div p{
+    color: #aaa;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+/*------------------------------CONTENT------------------------------------*/
+.content{
+  color: black;
+}
+.main-conten{
+    text-align: center;
+ 
+}
+.nav-tips{
+    margin: 3%;
+}
+.content-etudes .cards{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  padding: 2%;
+}
+.tab-content .tab-pane form{
+  padding: 3%;
+  bottom: 0px;
+}
+/*------------------CARDS-------------------------*/
+.cards .card{
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card .card-title{
+  color: black;
+}
+.card .card-subtitle{
+  color: black;
+}
+.card-link{
+  font-size: 20px;
+}
+
+/*-------------------------------------FOOTER------------------------------------*/
+
+.footer {
+ background-color: #232323;
+ color: white;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+
+.footer .heading {
+  max-width: 1010px;
+  width: 90%;
+  color: white;
+  text-transform: uppercase;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.footer .content {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  padding: 1%;
+}
+
+.footer .content p {
+  margin-bottom: 1.3rem;
+  
+}
+
+.footer .content a {
+  text-decoration: none;
+ 
+}
+
+.footer .content a:hover {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.829);
+}
+
+.footer .content h4 {
+  margin-bottom: 1.3rem;
+  font-size: 19px;
+}
+
+footer {
+  text-align: center;
+ 
+}
+
+footer hr {
+  margin: rem 0;
+}
+
+@media (max-width: 767px) {
+  .footer .content {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+  }
+
+  .footer {
+    position: unset;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer .content,
+  .footer {
+    font-size: 14px;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 500px) {
+  .footer {
+    position: unset;
+  }
+}
+/* --------------------------------CAROUSEL-------------------------------- */
+
+.carousel {
+    position: relative;
+    height: 800px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.carousel_track-container {
+    background: lightgreen;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel_track {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    height: 100%;
+    transition: transform 250ms ease-in;
+}
+
+.carousel_slide {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carousel_button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+
+.carousel_button--left {
+    left: -40px;
+}
+
+.carousel_button--right {
+    right: -40px;
+}
+
+.carousel_button img{
+    width: 12px;
+
+}
+
+.carousel_nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.carousel_indicator{
+    border: 0;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background: rgba(0, 0, 0, 0.3);
+    margin: 0 12px;
+    cursor: pointer;
+}
+.carousel_indicator.current-slide {
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.is-hidden {
+    display: none;
+} 
